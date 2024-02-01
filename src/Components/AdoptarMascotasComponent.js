@@ -26,7 +26,7 @@ const AdoptarMascotasComponent = () => {
   }, []);
 
   ///////////////////////////////////////////////////////////////////
-
+//FUNCION PARA PROPORCIONAR EL ESTADO DE BUSQUEDA
   const getMascotas = async () => {
     try {
       const respuesta = await axios.get(`${url}/buscar?termino=${busqueda}`);
